@@ -1,0 +1,19 @@
+.border-box{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html,body{height:100%}#body{height:100%;margin-top:-43px;padding-top:43px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}#body .shop-trade{overflow:hidden;height:100%;padding-left:90px;border-top:1px solid #e6e6e6;color:#242529}#body .shop-trade .region,#body .shop-trade .shop{float:left;height:100%}#body .shop-trade .region li,#body .shop-trade .shop li{height:45px;line-height:45px}#body .shop-trade .region{width:90px;margin-left:-90px}#body .shop-trade .region li{text-align:center}#body .shop-trade .region li.current{background-color:#fff}#body .shop-trade .shop{width:100%;padding-left:15px;background-color:#fff;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}#body .shop-trade .shop li{border-bottom:1px solid #e6e6e6}#body .shop-trade .shop li:after{content:"";float:right;width:13px;height:16px;margin:14px 15px 0 0;background-image:url(../images/icons.png);background-position:-453px 0;background-repeat:no-repeat;background-size:467px 408px}#body .shop-trade .shop li.current{border-bottom-color:#f39d12;color:#f39d12}#body .shop-trade .shop li.current:after{background-image:url(../images/icons.png);background-position:-435.5px 0;background-repeat:no-repeat;background-size:467px 408px}
+#body .shop-trade .shop li.current.highlight::after {
+    background-image: url("../images/icons.png");
+}
+
+#body .shop-trade .shop li.highlight::after {
+    background-image: url("../images/icons.png");
+    margin: -6px 17px 0 0;
+}
+
+#body .shop-trade .shop li.highlight {
+    line-height: 25px;
+    height: 50px;
+    color: #ff6700;
+}
+
+#body .shop-trade .shop li.highlight.current {
+    color: #f39d12;
+}
