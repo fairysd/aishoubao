@@ -243,18 +243,6 @@
 							<input type="checkbox" name="agreement" id="regAgreement" value="1" checked="checked"/><a target="_blank" href="http://www.aishoubao.com:8888/asb-web/help/zcxy">我已阅读并同意《用户注册协议》</a>
 						</div>
 					</form>
-					
-					<form name="productBjForm" id="productBjForm" method="post" action="${baseurl}estimate/">
-					    <input type="hidden" name="productId" id="productId" value="${productId}"/>
-					    <input type="hidden" name="modeId" id="modeId" value="${modeId}"/>
-					    <input type="hidden" name="estimatePrice" id="estimatePrice" value="${quote}"/>
-					    <input type="hidden" name="pricerules" id="pricerules" value="${pricerules}"/>
-					    <input type="hidden" name="cityId" id="cityId" value="${cityId}"/>
-					    <input type="hidden" name="num" id="num" value="${num}"/>
-					    <input type="hidden" name="diamondDesc" id="diamondDesc" value="${diamondDesc}"/>
-					    <input type="hidden" name="cityinput" id="cityinput" value=""/>
-					    <input type="hidden" name="areainput" id="areainput" value=""/>
-					</form>
 				</div>
 			</div>
 			<script type="text/javascript" src="${baseurl}res/js/jquery-1.11.1.min.js"></script>
@@ -301,7 +289,7 @@
 			        success: function(data) {
 			            if(data.success){
 //			            	alert("登录成功")
-			            	$('#productBjForm').submit();
+			            	$('#productBjForm', parent.document).submit();
 			            }else{
 			            	alert("帐号或密码错误");
 			            }
@@ -332,7 +320,7 @@
 			        success: function(data) {
 			            if(data.success){
 			            	alert("注册成功")
-			            	$('#productBjForm').submit();
+			            	$('#productBjForm', parent.document).submit();
 			            }else{
 			            	alert(data.msg)
 			            }

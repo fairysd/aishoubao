@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css">
     <link rel="stylesheet" href="${baseurl}res/css/common.min.css"/>
     <link rel="stylesheet" href="${baseurl}res/css/productBj.min.css"/>
+    <link type="text/css" rel="stylesheet" href="${baseurl}res/js/layer/skin/layer.css">
     <title>询价结果</title>
     <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport" />
 </head>
@@ -72,7 +73,7 @@
 <!-- footer 价格 -->
 <footer id="footer" class="clearfix  ">
     <!--<a class="submit" href="javascript:submitForm();" style="color:white;">立即抵押</a>-->
-     <a id="estimate" class="submit" href="${baseurl}loginjm.jsp" style="color:white;">立即抵押</a>
+     <a id="estimate" class="submit" href="${baseurl}login.jsp" style="color:white;">立即抵押</a>
 </footer>
 <form name="productBjForm" id="productBjForm" method="post" action="${baseurl}estimate/">
     <input type="hidden" name="productId" id="productId" value="${productId}"/>
@@ -91,6 +92,8 @@
 <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
 <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' charset='utf-8'></script>
 <script type="text/javascript" src="${baseurl}res/js/sm-city-picker.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="${baseurl}res/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="${baseurl}res/js/layer/layer.js"></script>
 
 
 <%--<script type="text/javascript" src="${baseurl}res/js/jquery-1.11.1.min.js"></script>--%>

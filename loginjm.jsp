@@ -372,7 +372,7 @@
 						},
 		            type: "get",		            
 			        success: function(data) {
-			            if(data.success && isPhoneNumber.test($("#regPhoneNumber").val())){      	
+			            if(!data.success && isPhoneNumber.test($("#regPhoneNumber").val())){      	
 			            	$("#regUsername_img").attr("src","${baseurl}res/images/new/login/right.png");
 			            	$("#regUsername_cue").html('');
 //			            	alert("未注册的手机号");
