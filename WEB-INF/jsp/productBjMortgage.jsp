@@ -134,7 +134,7 @@
  	$(document).ready(function(){
  		//  检查是否登陆状态
         $.ajax({
-            url: "http://shop.aishoubao.com/userheader.php?ajax=1",
+            url: "http://shop.aishoubao.com/mobile/userheader.php?ajax=1",
             dataType: "jsonp",
             jsonp:'callback',
             async: true,
