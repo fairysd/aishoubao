@@ -20,6 +20,11 @@
   <!-- No Baidu Siteapp-->
   <meta http-equiv="Cache-Control" content="no-siteapp"/>
   <link rel="stylesheet" href="http://cdn.amazeui.org/amazeui/2.5.0/css/amazeui.min.css">
+  <style type="text/css">
+      ul.am-avg-lg-4 p:first-child{
+          display: none;
+      }
+  </style>
 </head>
 <body>
 <%--<header data-am-widget="header"--%>

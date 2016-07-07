@@ -76,7 +76,7 @@
                 <div class="success_actions">
                     <ul>
                         <li class="first">
-                            <a id="tradelist" href="${baseurl}member/">查看订单</a>
+                            <a id="tradelist" href="http://shop.aishoubao.com/mobile/user.php?act=estimate_list">查看订单</a>
                         </li>
                     </ul>
 
