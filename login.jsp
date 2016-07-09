@@ -10,112 +10,112 @@
 				}
 				.login_reg{
 					background: url(${baseurl}res/images/new/login/login_reg_bg_03.png);
-					width: 491px;
-					height: 591px;
+					width:344px;
+					height: 414px;
 					margin: auto;
 				}
 				.close_btn{
 					text-align: right;
-					padding: 30px 30px 0 0;
-					margin-bottom: 20px;
+					padding: 21px 21px 0 0;
+					margin-bottom: 14px;
 				}
 				.change_state{
-					width: 330px;
-					height: 46px;
+					width: 231px;
+					height: 32px;
 					margin: auto;
-					margin-bottom: 12px;
+					margin-bottom: 8px;
 				}
 				.change_state > div{
 					float: left;
-					width: 165px;
+					width: 115px;
 					text-align: center;				
 				}
 				.change_state > div.active{
 					float: left;
-					width: 165px;
+					width: 115px;
 					text-align: center;
 					background-color: #FFFFFF;						
 				}
 				.change_state > div h2{
 					font-family: "微软雅黑";
-					font-size: 20px;
+					font-size: 14px;
 					color: #646464;
 					font-weight: normal;
 					margin: 0;
-					padding: 10px 0;
+					padding: 7px 0;
 					cursor: pointer;
 				}
 				.change_state > div.active h2{
 					color: #e1882a;	
 				}
 				.login_container{
-					width:420px;
-					height: 320px;
+					width:294px;
+					height: 224px;
 					margin: auto;				
-					border-radius: 10px;
+					border-radius:7px;
 					background-color: #FFFFFF;
-					padding-top: 80px;
+					padding-top: 56px;
 				}
 				.reg_container{
-					width:420px;
-					height: 380px;
+					width:294px;
+					height: 227px;
 					margin: auto;
 					background-color: #FFFFFF;
-					border-radius: 10px;
-					padding-top: 26px;
+					border-radius: 7px;
+					padding-top: 18px;
 				}
 				.login_container .p.user_password{
-					margin-bottom: 20px;
+					margin-bottom: 14px;
 				}
 				.login_container .p{
-					width: 330px;
-					margin:0 45px;			
-					height: 50px;
+					width: 231px;
+					margin:0 31px;			
+					height: 35px;
 					border-bottom: #e0e0e0 1px solid;
-					padding-bottom: 10px;
-					padding-top: 10px;
+					padding-bottom: 7px;
+					padding-top: 7px;
 				}
 				.login_container form div{
 					float:left;
-					width: 50px;
-					height: 50px;
+					width: 35px;
+					height: 35px;
 					text-align: center;
 				}
 				.login_container form div img{
 					vertical-align: middle;				
 					display: block;
-					margin:8px auto;
+					margin:5px auto;
 				}
 				.login_container input{
 					border: none;
-					height: 50px;
+					height: 35px;
 					padding: 0;	
-					width: 274px;
+					width: 191px;
 					border-left: #e0e0e0 1px solid;
-					font-size: 20px;
-					text-indent: 10px;
+					font-size: 14px;
+					text-indent: 7px;
 				}
 				.login_container .login_submit{
-					width: 328px;
-					height: 60px;
+					width: 223px;
+					height: 42px;
 					display: block;
 					margin: auto;
 					background-color: #e7a055;
-					border-radius: 10px;
-					margin-top: 80px;
-					font-size: 20px;
+					border-radius: 7px;
+					margin-top: 56px;
+					font-size: 14px;
 					color: #FFFFFF;
 					cursor: pointer;
 				}
 				.reg_container form > p.input_char{
 					margin: 0;
-					height: 30px;
+					height: 21px;
 				}
 				.reg_container form > p.cue_char{
-					margin: 7px 0;
-					height: 26px;
-					padding-left: 110px;
-					line-height: 26px;
+					margin: 5px 0;
+					height: 18px;
+					padding-left: 77px;
+					line-height: 18px;
 					font-size: 12px;
 					color: #535353;
 					font-family: "微软雅黑";
@@ -123,8 +123,8 @@
 				.reg_container p input{
 					display: block;
 					float: left;
-					width: 264px;
-					height: 28px;
+					width: 184px;
+					height: 19px;
 					margin: 0;
 					padding: 0;
 					border: 1px #eae9da solid;
@@ -132,73 +132,73 @@
 					text-indent: 5px;
 				}
 				.reg_container p input.verify_code{
-					width: 128px;
+					width: 90px;
 				}
 				.reg_container p span{
 					display: block;
 					float: left;
-					width: 110px;
-					height: 30px;
+					width: 77px;
+					height: 21px;
 					text-align: right;
 					font-size: 14px;
 					color: #000000;
-					line-height: 30px;
-					padding-right: 10px;
+					line-height: 21px;
+					padding-right: 7px;
 					font-family: "微软雅黑";
 				}
 				.reg_container .reg_submit{
-					width: 190px;
-					height: 35px;
+					width: 133px;
+					height: 24px;
 					display: block;
 					margin: auto;
 					background-color: #56abe4;
 					color: #FFFFFF;
 					border: none;
-					margin-top: 20px;
+					margin-top: 14px;
 					cursor: pointer;
 					font-family: "微软雅黑";
-					font-size: 16px;
+					font-size: 12px;
 				}
 				.reg_container a{
 					text-decoration: none;
 					color: #8D8D8D;
-					font-size: 14px;
+					font-size: 12px;
 				}
 				.agreement_box{
 					position: relative;
-					top: 35px;
-	    			left: 180px;
+					top: 14px;
+	    			left: 112px;
 				}
 				.forgetpassword a{
 					text-decoration: none;
 					color: #8D8D8D;
-					font-size: 20px;
+					font-size: 14px;
 					display: block;
 					text-align: right;
-					text-indent: -20px;
-					width: 100px;
+					text-indent: -14px;
+					width: 70px;
   					float: right;
 				}
 				#regAgreement{
-					height: 18px;
-					width: 18px;
+					height: 16px;
+					width: 16px;
 				}
 				.agreement_box{
-					width: 230px;
-					height: 18px;
+					width: 200px;
+					height: 16px;
 				}
 				.agreement_box a{
 					display: block;
 					float: right;
-					height: 18px;
-					line-height: 18px;
+					height: 12px;
+					line-height: 12px;
 				}
 				.input_char img.vue{
 					display: block;
 					/*width: 12px;*/
-					padding: 9px 0;
+					padding: 6px 0;
 					position: relative;
-   					left: -20px;
+   					left: -14px;
 				}
 			</style>
 		</head>
@@ -237,7 +237,7 @@
 						<p id="regRePassword_cue" class="cue_char"></p>
 						<!--<p class="input_char"><span>手机:</span><input class="user_phone" type="text" name="" id="regPhoneNumber" value="" /></p>
 						<p id="regPhoneNumber_cue" class="cue_char">请输入大陆手机号</p>-->
-						<p class="input_char"><span>验证码:</span><input class="verify_code" type="text" name="" id="regVeryCode" value="" /><img src="http://shop.aishoubao.com/captcha.php?+Math.random()" style="cursor: pointer;width: 110px; height: 30px;padding-left: 15px;" onclick="this.src='http://shop.aishoubao.com/'+'captcha.php?'+Math.random()"/></p>
+						<p class="input_char"><span>验证码:</span><input class="verify_code" type="text" name="" id="regVeryCode" value="" /><img src="http://shop.aishoubao.com/captcha.php?+Math.random()" style="cursor: pointer;width: 77px; height: 21px;padding-left: 11px;" onclick="this.src='http://shop.aishoubao.com/'+'captcha.php?'+Math.random()"/></p>
 						<input id="regSubmit" class="reg_submit" type="submit" name="" id="" value="同意以下协议并注册" />
 						<div class="agreement_box">
 							<input type="checkbox" name="agreement" id="regAgreement" value="1" checked="checked"/><a target="_blank" href="http://www.aishoubao.com:8888/asb-web/help/zcxy">我已阅读并同意《用户注册协议》</a>
@@ -277,7 +277,7 @@
 	//		login and register ajax request
 			$(".login_container .login_submit").click(function(){			
 			    $.ajax({
-		            url: "http://shop.aishoubao.com/user.php",
+		            url: "http://shop.aishoubao.com/mobile/user.php",
 		            dataType: "jsonp",
 		            jsonp:'callback',
 		            async: true,
@@ -296,7 +296,7 @@
 			            	alert("帐号或密码错误");
 			            }
 			            },
-		            error:function(data){            	
+		            error:function(data){
 		            alert("wrong")
 		            }
 	        	});				
