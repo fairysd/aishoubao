@@ -49,7 +49,7 @@
             </li>
             <li class="inquiry-service-price">
                 <h3>价格公道</h3>
-                <p>爱收宝保证同类产品全国最高价抵押</p>
+                <p>爱收宝价格公道，无其他手续费</p>
             </li>
             <li class="inquiry-service-ysbh">
                 <h3>隐私保护</h3>
@@ -73,7 +73,7 @@
 <!-- footer 价格 -->
 <footer id="footer" class="clearfix  ">
     <!--<a class="submit" href="javascript:submitForm();" style="color:white;">立即抵押</a>-->
-     <a id="estimate" class="submit" href="${baseurl}login.jsp" style="color:white;">立即抵押</a>
+     <a id="estimate" class="submit" href="${baseurl}login.jsp" style="color:white;">立即寄卖</a>
 </footer>
 <form name="productBjForm" id="productBjForm" method="post" action="${baseurl}estimate/">
     <input type="hidden" name="productId" id="productId" value="${productId}"/>
@@ -131,8 +131,8 @@
     });
 </script>
  <script>
- 	$(document).ready(function(){
- 		//  检查是否登陆状态
+    $(document).ready(function(){
+        //  检查是否登陆状态
         $.ajax({
             url: "http://shop.aishoubao.com/mobile/userheader.php?ajax=1",
             dataType: "jsonp",
@@ -148,31 +148,31 @@
                 console.log(userinfo.userId);
                 if(data.userId) {
 //                  $('#loginUserInfo').html('<a href="http://shop.aishoubao.com/user.php" target="_top">'+data.userInfo.username+'</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://shop.aishoubao.com/user.php?act=logout&backurl=http://www.aishoubao.com" target="_top">退出</a>');
-//              		alert(1)
+//                      alert(1)
                 } else {
 //                  $('#loginUserInfo').html('<a href="http://shop.aishoubao.com/user.php?backurl=http://www.aishoubao.com" target="_top">登录</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://shop.aishoubao.com/user.php?act=register&backurl=http://www.aishoubao.com" target="_top">注册</a>');
-//              	alert(2)
+//                  alert(2)
                 }
             },
         });
         // 提交按钮
-         $("#estimate").click(function(){		
-//				  	$("#productBjForm").submit();
-	    	if(userinfo.userId){
-        		$("#productBjForm").submit();
-        	}
+         $("#estimate").click(function(){       
+//                  $("#productBjForm").submit();
+            if(userinfo.userId){
+                $("#productBjForm").submit();
+            }
             else{
             alert("请您先登录或注册");
-            	layer.open({
-		      			type:2,
-		      			area:["491px","591px"],
-		      			content:[this.href,"no"],
-		      			shadeClose:true,
-		      			title:false
-      				})
+                layer.open({
+                        type:2,
+                        area:["491px","591px"],
+                        content:[this.href,"no"],
+                        shadeClose:true,
+                        title:false
+                    })
             }
              return false;
-	    	});
+            });
 
     });
     
