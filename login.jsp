@@ -124,7 +124,7 @@
 					display: block;
 					float: left;
 					width: 184px;
-					height: 19px;
+					height: 24px;
 					margin: 0;
 					padding: 0;
 					border: 1px #eae9da solid;
@@ -138,11 +138,11 @@
 					display: block;
 					float: left;
 					width: 77px;
-					height: 21px;
+					height: 24px;
 					text-align: right;
 					font-size: 14px;
 					color: #000000;
-					line-height: 21px;
+					line-height: 24px;
 					padding-right: 7px;
 					font-family: "微软雅黑";
 				}
@@ -154,7 +154,7 @@
 					background-color: #56abe4;
 					color: #FFFFFF;
 					border: none;
-					margin-top: 14px;
+					margin-top: 16px;
 					cursor: pointer;
 					font-family: "微软雅黑";
 					font-size: 12px;
@@ -237,7 +237,7 @@
 						<p id="regRePassword_cue" class="cue_char"></p>
 						<!--<p class="input_char"><span>手机:</span><input class="user_phone" type="text" name="" id="regPhoneNumber" value="" /></p>
 						<p id="regPhoneNumber_cue" class="cue_char">请输入大陆手机号</p>-->
-						<p class="input_char"><span>验证码:</span><input class="verify_code" type="text" name="" id="regVeryCode" value="" /><img src="http://shop.aishoubao.com/captcha.php?+Math.random()" style="cursor: pointer;width: 77px; height: 21px;padding-left: 11px;" onclick="this.src='http://shop.aishoubao.com/'+'captcha.php?'+Math.random()"/></p>
+						<p class="input_char"><span>验证码:</span><input class="verify_code" type="text" name="" id="regVeryCode" value="" /><img src="http://shop.aishoubao.com/captcha.php?+Math.random()" style="cursor: pointer;width: 77px; height: 24px;padding-left: 11px;" onclick="this.src='http://shop.aishoubao.com/'+'captcha.php?'+Math.random()"/></p>
 						<input id="regSubmit" class="reg_submit" type="submit" name="" id="" value="同意以下协议并注册" />
 						<div class="agreement_box">
 							<input type="checkbox" name="agreement" id="regAgreement" value="1" checked="checked"/><a target="_blank" href="http://www.aishoubao.com:8888/asb-web/help/zcxy">我已阅读并同意《用户注册协议》</a>
@@ -296,7 +296,7 @@
 			            	alert("帐号或密码错误");
 			            }
 			            },
-		            error:function(data){
+		            error:function(data){            	
 		            alert("wrong")
 		            }
 	        	});				

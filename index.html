@@ -1,39 +1,93 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+    <!-- <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css"> -->
     <link rel="stylesheet" href="res/css/common.min.css"/>
     <link rel="stylesheet" href="res/css/Index.min.css"/>
+
     <title>爱收宝 手机版 - 手机回收 | 贵金属回收,最方便可靠的回收平台</title>
     <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport"/>
     <style>
+        #header{
+            background-color: #f4f4f4;
+        }
+        #header .header a{
+            display: inline-block;
+            width: 32%;
+            height: 85px;
+        }
+        #header .header a.order{
+            text-align: right;
+        }
+        #header .header a img{
+           vertical-align: middle;
+           max-width: 100%;
+           display: inline;
+        }
+        #header .header a img.logo{
+            margin-left: 5%;
+        }
+        #header .header a img.servicea{
+            text-align: left;
+        }
+
     </style>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?0c974c3c7bb75a06befe38a2fc0293fe";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 </head>
 <body onunload="">
-<header id="header" style="height:83px;">
-    <h1>
-        <a href="/" class="global_back_home">
-            <img class="" style="height:36px;width:222px;" src="images/logo.png" alt="爱收宝"/>
+<!-- <nav class="bar bar-tab">
+    <a class="tab-item external" href="http://shop.aishoubao.com/mobile/">
+        <span class="icon icon-cart"></span>
+        <span class="tab-label">我要买</span>
+    </a>
+    <a class="tab-item external active" href="http://m.aishoubao.com/aishoubao/">
+        <span class="icon icon-browser"></span>
+        <span class="tab-label">我要卖</span>
+    </a>
+    <a class="tab-item external" href="http://shop.aishoubao.com/mobile/user.php">
+        <span class="icon icon-me"></span>
+        <span class="tab-label">个人中心</span>
+    </a>
+</nav> -->
+<header id="header">
+    <div class="header">
+        <a  href="/" class="global_back_home">
+            <img class="logo"  src="res/images/new/index/waplogo_03.jpg" alt="爱收宝"/>
         </a>
-    </h1>
-    <a class="order" href="member/"><img src="images/grzx.png" style=" margin-top:32px"></a>
+        <a class="servicea">
+            <img  src="res/images/new/index/service_03.jpg" alt="">
+        </a>
+        <a  class="order" href="http://shop.aishoubao.com/mobile/user.php">
+            <img src="res/images/new/index/center_03.jpg" >
+        </a>
+    </div>
+    
 </header>
 <div id="body">
     <!-- 头部 banner -->
     <div id="topbanner" class="slidershow-wrap">
         <div class="slidershow-content clearfix">
-
-            <a class="slidershow-item" href="#">
-                <img src="images/ad3.jpg" alt=""/>
-            </a>
             <a class="slidershow-item js-index-oldcloth-banner" href="#">
                 <img src="images/ad2.jpg" alt=""/>
             </a>
+            <a class="slidershow-item" href="#">
+                <img src="images/ad3.jpg" alt=""/>
+            </a>            
         </div>
         <ul class="slidershow-nav">
             <li></li>
             <li></li>
+            
         </ul>
+
     </div>
 
     <div class="search-wrap">
@@ -41,33 +95,51 @@
     </div>
     <!-- 分类 -->
     <ul class="categories2 clearfix">
-        <li><a href="category/new/08d2d4cbf39748f08d56b26ba29266aa">手机</a></li>
-        <li><a href="product/8fa078e445184f1f9041ea1be763a5e8/detail?type=gjs">黄金</a></li>
-        <li><a href="category/new/47f288756f1a4c5ebac0a2baf1f5ee80">贵金属</a></li>
-        <li><a href="category/new/08d2d4cbff6j48f08d56b26ba29266aa">名表</a></li>
-        <li><a href="category/new/08d2d4cbf3974d8i8d56b26ba29266aa">名包</a></li>
-        <li><a href="diamond/">钻石</a></li>  
+        <li>
+            <a href="category/new/08d2d4cbf39748f08d56b26ba29266aa">手机</a>
+        </li>
+        <li>
+            <a href="product/8fa078e445184f1f9041ea1be763a5e8/detail?type=gjs">黄金</a>
+        </li>
+        <li>
+            <a href="category/new/47f288756f1a4c5ebac0a2baf1f5ee80">贵金属</a>
+        </li>
+        <li>
+            <a href="category/new/08d2d4cbff6j48f08d56b26ba29266aa">名表</a>
+        </li>
+        <li>
+            <a href="category/new/08d2d4cbf3974d8i8d56b26ba29266aa">名包</a>
+        </li>
+        <li>
+            <a href="diamond/">钻石</a>
+        </li>
     </ul>
+    <div>
+        <img style="width:100%;padding-top: 9px;" src="res/images/new/index/pagebottom_02.jpg" alt=""></div>
     <div class="service">
         <div class="title">
-            <h2 class="clearfix"><span>爱收宝网保证</span></h2>
+            <h2 class="clearfix">
+                <span>爱收宝网保证</span>
+            </h2>
         </div>
         <div class="service-content-wrap" id="js-service-content-wrap">
             <div class="service-content clearfix">
                 <ul class="pledge" id="js-service-list">
+                    <li>连锁正规</li>
                     <li>价格公道</li>
                     <li>服务快捷</li>
                     <li>隐私保护</li>
                 </ul>
                 <!-- <ul class="partner">
-                     <li>世界银行战略投资</li>
-                     <li>京东战略合作伙伴</li>
-                 </ul>
-             </div>
-             <ul class="service-nav clearfix">
-                 <li class="current"></li>
-                 <li></li>
-             </ul>-->
+                <li>世界银行战略投资</li>
+                <li>京东战略合作伙伴</li>
+            </ul>
+        </div>
+        <ul class="service-nav clearfix">
+            <li class="current"></li>
+            <li></li>
+        </ul>
+        -->
             </div>
             <div class="popup-wrap service-popup" id="js-service-popup">
                 <div class="popup">
@@ -86,24 +158,36 @@
                             <p>回收成功所有机器专业人员专业清理，保证隐私不泄露</p>
                         </li>
                     </ul>
-                    <div class="close"><span>知道了</span></div>
+                    <div class="close">
+                        <span>知道了</span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="service2">
+    <div class="service2"style="height:170px" >
         <div class="service-content-wrap2">
             <div class="service-content clearfix2" style="background:#fff;">
                 <ul>
-                    <li style="width: 50%; background: #fff;float:left;"><img src="images/sinawb.png" style=" margin: 0 auto;width:50%;  padding-top: 22%;">
-                        <p style="font-size:1.09em;font-weight:bold; text-align: center;">新浪微博</p></li>
-                    <li style="width: 50%; background: #fff; float:left;"><img src="images/weixin.png" style=" margin: 0 auto;width:50%;  padding-top: 22%;">
-                        <p style="font-size:1.09em;font-weight:bold; text-align: center;">微信公众号</p></li>
+                    <li style="width: 50%; background: #fff;float:left;">
+                        <img src="images/sinawb.png" style=" margin: 0 auto;width:50%;  padding-top: 10%;">
+                        <p style="font-size:1.09em;font-weight:bold; text-align: center;">新浪微博</p>
+                    </li>
+                    <li style="width: 50%; background: #fff; float:left;">
+                        <img src="images/weixin.png" style=" margin: 0 auto;width:50%;  padding-top: 10%;">
+                        <p style="font-size:1.09em;font-weight:bold; text-align: center;">微信公众号</p>
+                    </li>
                 </ul>
             </div>
         </div>
     </div>
+    <h3 style="background-color: #ffffff;border-top: 1px solid #f3f3f3;text-align: center;padding:10px 0;font-family:'宋体';font-weight: normal;">客服热线：400-086-1131</h3>
+
+
 </div>
+
+<script language="javascript">var qykf_userinfo_url='http://shop.aishoubao.com/mobile/userheader.php?kf=1&callback=?'</script><script>(function(){var c=document.createElement("script"),s=document.getElementsByTagName("script")[0];c.src="//kefu.qycn.com/vclient/state.php?webid=113372";s.parentNode.insertBefore(c,s);})();</script>
+<script>(function(){var c=document.createElement("script"),s=document.getElementsByTagName("script")[0];c.src="//kefu.qycn.com/vclient/state.php?webid=113372";s.parentNode.insertBefore(c,s);})();</script>
 <script type="text/javascript" src="res/js/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="res/js/common.min.js"></script>
 <script type="text/javascript" src="res/js/Index.min.js"></script>

@@ -239,25 +239,30 @@
 	margin: 0 auto
 }
 .service .service-content .pledge li {
-	width: 33.3%
+	width: 25%
 }
 .service .service-content .pledge li:nth-child(1):before {
-	background-image: url(../images/index-icons.png);
-	background-position: -5px -104.5px;
+	background-image: url(../images/claim.png);
+	background-size: 38px 42px;
 	background-repeat: no-repeat;
-	background-size: 248.5px 265.5px
 }
 .service .service-content .pledge li:nth-child(2):before {
 	background-image: url(../images/index-icons.png);
-	background-position: -46.5px -104.5px;
+	background-position: -5px -104.5px;
 	background-repeat: no-repeat;
-	background-size: 248.5px 265.5px
+	background-size: 248.5px 265.5px;
 }
 .service .service-content .pledge li:nth-child(3):before {
 	background-image: url(../images/index-icons.png);
-	background-position: -94px -104.5px;
+	background-position: -46.5px -104.5px;
 	background-repeat: no-repeat;
-	background-size: 248.5px 265.5px
+	background-size: 248.5px 265.5px;
+}
+.service .service-content .pledge li:nth-child(4):before {
+	background-image: url(../images/index-icons.png);
+	background-position: -92px -104.5px;
+	background-repeat: no-repeat;
+	background-size: 248.5px 265.5px;
 }
 .service .service-content .partner li {
 	width: 50%
